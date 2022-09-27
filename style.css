@@ -1,18 +1,22 @@
 
+#our_story_section {
+
+}
+
+
 #section-container {
     
     display: flex;
     justify-content: center;
-    margin: 0 20%;    
+    margin: 5% 20%  ;    
     background-color:white;
-    ;
-
+    
 }
 
 #logo {
 
-float:left;
-margin: 0 10% 0 0;
+float:le;
+margin: 2% 10% 0 0;
 width:230px;
 height:230px;
 
@@ -20,14 +24,28 @@ height:230px;
 
 #Story_Text {
 display:inline-block;
-
+height:80%;
 font-size 80em;
-margin:0px; 0 0 50px;
+margin:0px;
+overflow: auto ;
 
 }
 
 #story_text h3 {
 font-weight: bold;
 
-
 }
+
+.button {
+    background-color: white;
+    border: 1px solid rgb(24, 185, 177);
+    color: rgb(24, 185, 177);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
