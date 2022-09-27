@@ -23,6 +23,7 @@ height:230px;
 display:inline-block;
 height:80%;
 font-size 80;
+font-weight:1200;
 margin:0px;
 overflow: auto ;
 }
@@ -40,7 +41,7 @@ font-weight: bold;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    font-weight: 600;
-    margin: 10px 0px;
+    font-weight: 900;
+    margin: 20px 0px 0 0;
     cursor: pointer;
   }
