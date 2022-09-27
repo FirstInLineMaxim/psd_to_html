@@ -4,6 +4,7 @@
     display: flex;
     margin: 0 20%;    
     background-color:white;
+    text-align:center;
 
 }
 
@@ -17,6 +18,13 @@ margin: 0 5% 0 0;
 
 #Story_Text {
 display:inline-block;
- ;
+padding: 30px;
+font-size 80em;
+margin:5% 5% 0 0;
 }
 
+#story_text h3 {
+font-weight: bold;
+
+
+}
