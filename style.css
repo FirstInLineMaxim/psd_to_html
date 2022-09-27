@@ -19,6 +19,7 @@ color: #ffffff;
 font-weight: 900;
 font-family: "Roboto";
 text-align: center;
+<<<<<<< HEAD
 
 //--Nizami footer --//
 * {
@@ -182,4 +183,6 @@ margin: 0px;
 
 .copyright {
     color: white;
+=======
+>>>>>>> origin
 }
