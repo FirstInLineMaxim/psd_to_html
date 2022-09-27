@@ -70,4 +70,170 @@ color: #ffffff;
 font-weight: 900;
 font-family: "Roboto";
 text-align: center;
+<<<<<<< HEAD
+
+//--Nizami footer --//
+* {
+    box-sizing: border-box;
+    text-align: left;
+}
+body {
+    margin: 0px;
+    width: 100%;
+    height: 390px;
+}
+.footer {
+    background-image: url(images-nizami/bgk-footer.png);
+    background-size: cover;
+    width: 100%;
+    height: 390px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 65px 0px;
+    height: 390px;
+    display: flex;
+}
+
+.tajamBlock,
+.ourStuidoBlock,
+.stayInTouch {
+    width: 30%;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tajamBlock .tajamHeader {
+    display: flex;
+}
+
+.tajamBlock p {
+width: 299px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Roboto";
+}
+
+.tajamBlock h3 {
+    font-size: 30px;
+color: #ffffff;
+font-weight: 250;
+padding-left: 10px;
+margin-top: 0px;
+font-family: "Roboto";
+text-align: center;
+background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
+}
+
+.help {
+    width: 459px;
+height: 13px;
+display: flex;
+}
+
+.help a {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding-right: 10px;
+}
+
+.help a::before {
+    color: #ffffff;
+}
+
+.help a:hover {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+}
+
+.tajamBlock img {
+    height: 50px;
+}
+
+p.adress {
+height: 80px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+margin: 0px;
+font-family: "Roboto";
+padding-left: 5px;
+}
+
+
+.ourStuidoBlock h3,
+.stayInTouch h3 {
+font-size: 15px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 900;
+font-family: "Roboto";
+height: 89px;
+margin: 0px;
+}
+
+.ourStuidoBlock img {
+    height: 19px;
+}
+
+.ourStudioHeader, 
+.ourStudioFooter {
+    display: flex;
+    height: 70px;
+}
+
+.callMe {
+    width: 271px;
+height: 23px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Roboto";
+margin: 0px;
+padding-left: 5px;
+}
+
+.stayInTouch input {
+    width: 221px;
+    color: white;
+    height: 45px;
+    background-color: #09052f;
+    border: 1px solid #ffffff;
+    opacity: 0.1;
+    font-size: 14px;
+    padding-left: 20px;
+letter-spacing: 1px;
+line-height: 26px;
+margin: 0px;
+}
+
+.stayInTouchInput {
+    display: flex;
+    height: 45px;
+}
+
+.stayInTouchIcons {
+    margin-top: 50px;
+}
+
+.copyright {
+    color: white;
+=======
+>>>>>>> origin
 }
