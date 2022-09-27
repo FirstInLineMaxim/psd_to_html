@@ -22,12 +22,7 @@ font-family: "Roboto";
 text-align: center;
 }
 
-
-
-
-
-
-
+  
 #section-container {
   display: flex;
   justify-content: center;
@@ -71,6 +66,25 @@ font-weight: bold;
     margin: 20px 0px 0 0;
     cursor: pointer;
   }
+s
+
+
+  #team-section {
+    background-color: #09052f;
+
+
+  }
+
+  #teamcontainer {
+    display:flex;
+    justify-content: center;
+    color:white;
+    background-color: #09052f;
+    margin:0 20%;
+    padding:20%;
+
+  }
+
 
 * {
     box-sizing: border-box;
