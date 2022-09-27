@@ -1,13 +1,22 @@
 
 #section-container {
-
+    
     display: flex;
     margin: 0 20%;    
     background-color:white;
 
 }
 
-#Story_Text {
+#logo {
+width:20%;
+float:left;
+margin: 0 5% 0 0;
 
+
+}
+
+#Story_Text {
+display:inline-block;
+ ;
 }
 
