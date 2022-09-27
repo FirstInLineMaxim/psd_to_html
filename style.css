@@ -4,11 +4,10 @@
 #contact_client-section {
     display: flex;
     width: 60%;
-    margin: 0 auto;
+    margin: 3rem auto;
     gap: 10%;
     text-align: left;
     justify-content: center;
-    margin-bottom: 3rem;
 }
 
 form {
