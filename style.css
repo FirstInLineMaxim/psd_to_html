@@ -255,11 +255,6 @@ li {
     height: 19px;
 }
 
-.ourStudioHeader,
-.ourStudioFooter {
-    display: flex;
-    height: 70px;
-}
 
 .callMe {
     width: 271px;
@@ -291,6 +286,7 @@ li {
 .stayInTouchInput {
     display: flex;
     height: 45px;
+    width: 40px;
 }
 
 .stayInTouchIcons {
@@ -403,6 +399,10 @@ q:before, q:after {
     padding: 65px 0px;
     height: 390px;
     display: flex;
+}
+
+.footer {
+    background-image: url(Images/bgk-footer.png);
 }
 
 .tajamBlock,
@@ -658,7 +658,6 @@ text-align: right;
 .ContainerBlock h4 {
     text-align: center;
     padding-top: 10px;
-    width: 299px;
 height: 47px;
 font-size: 14px;
 letter-spacing: 1px;
@@ -677,13 +676,6 @@ color: #333333;
 font-weight: 300;
 font-family: "Roboto";
 text-align: center;
-
-    height: 13px;
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Roboto";
-    text-align: right;
+height: 13px;
+letter-spacing: 0px;
 }
