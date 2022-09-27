@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&display=swap');
+
 /* Contact Client */
-#contact_client-section{
+#contact_client-section {
     display: flex;
     width: 60%;
     margin: 0 auto;
@@ -17,7 +18,7 @@ form {
     margin-top: 2rem;
 }
 
-h3{
+h3 {
     font-size: 22px;
     letter-spacing: 1px;
     color: #413d4b;
@@ -26,7 +27,7 @@ h3{
 
 }
 
-form input{
+form input {
     width: 460px;
     height: 45px;
     background-color: #ffffff;
@@ -35,20 +36,21 @@ form input{
 
 .massage {
     height: 10rem;
-    text-align:start;
+    text-align: start;
     margin: 0;
     padding: 0;
 
 
 }
-.button{
-color:#00e0d0 ;
-width: 120px;
-height: 40px;
-border-radius: 2px;
-background-color: transparent;
-border: 1px solid #00e0d0;
-text-align: center;
+
+.button {
+    color: #00e0d0;
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid #00e0d0;
+    text-align: center;
 }
 
 .Client {
@@ -57,6 +59,7 @@ text-align: center;
     gap: 2rem;
 
 }
+
 .ClientGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -66,10 +69,10 @@ text-align: center;
 
 .ClientGrid img {
     width: 150px;
-    
+
 }
 
- /* WatchSection */
+/* WatchSection */
 
 #watch-section {
     display: flex;
@@ -80,51 +83,20 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
-    min-width: 460px ;
+    min-width: 460px;
 }
 
-#watch-section p{
-width: 460px;
-height: 18px;
-font-size: 16px;
-letter-spacing: 1px;
-color: #ffffff;
-font-weight: 900;
-font-family: "Roboto";
-text-align: center;
+#watch-section p {
+    width: 460px;
+    height: 18px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
 }
 
-/* Nizami footer */
-
-* {
-    box-sizing: border-box;
-    text-align: left;
-
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-.container {
-    box-sizing: border-box;
-    width: 60%;
-    margin: 0 auto;
-    padding: 65px 0px;
-    height: 390px;
-    display: flex;
-}
 
 .tajamBlock,
 .ourStuidoBlock,
@@ -142,29 +114,29 @@ q:before, q:after {
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
 
 nav {
-  background-color: purple;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
-nav p{
+nav p {
     color: cyan;
     padding: 10pt;
     margin: 0;
@@ -173,35 +145,35 @@ nav p{
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 .tajamBlock p {
-width: 299px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Roboto";
+    width: 299px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
 }
 
 .tajamBlock h3 {
     font-size: 30px;
-color: #ffffff;
-font-weight: 250;
-padding-left: 10px;
-margin-top: 0px;
-font-family: "Roboto";
-text-align: center;
-background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
+    color: #ffffff;
+    font-weight: 250;
+    padding-left: 10px;
+    margin-top: 0px;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
 }
 
 .help {
     width: 459px;
-height: 13px;
-display: flex;
+    height: 13px;
+    display: flex;
 }
 
 .help a {
@@ -230,25 +202,27 @@ display: flex;
 }
 
 p.adress {
-height: 80px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-margin: 0px;
-font-family: "Roboto";
-padding-left: 5px;
+    height: 80px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 0px;
+    font-family: "Roboto";
+    padding-left: 5px;
 
 }
+
 ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
-li{
+
+li {
 
 
     padding: 5pt;
@@ -257,30 +231,33 @@ li{
 
 .ourStuidoBlock h3,
 .stayInTouch h3 {
-font-size: 15px;
-letter-spacing: 1px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 900;
-font-family: "Roboto";
-height: 89px;
-margin: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    height: 89px;
+    margin: 0px;
 
 }
-.logo {display: flex;
-justify-content: center;
-align-items: center;
-width: fit-content;}
 
-.header-image{
-  width: 100%;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.header-image {
+    width: 100%;
 }
 
 .ourStuidoBlock img {
     height: 19px;
 }
 
-.ourStudioHeader, 
+.ourStudioHeader,
 .ourStudioFooter {
     display: flex;
     height: 70px;
@@ -288,15 +265,15 @@ width: fit-content;}
 
 .callMe {
     width: 271px;
-height: 23px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Roboto";
-margin: 0px;
-padding-left: 5px;
+    height: 23px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    margin: 0px;
+    padding-left: 5px;
 }
 
 .stayInTouch input {
@@ -308,9 +285,9 @@ padding-left: 5px;
     opacity: 0.1;
     font-size: 14px;
     padding-left: 20px;
-letter-spacing: 1px;
-line-height: 26px;
-margin: 0px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin: 0px;
 }
 
 .stayInTouchInput {
@@ -324,47 +301,47 @@ margin: 0px;
 
 .copyright {
     width: 459px;
-height: 13px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 400;
-font-family: "Roboto";
-text-align: right;
+    height: 13px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: right;
 }
 
 
 
-  
+
 #section-container {
-  display: flex;
-  justify-content: center;
-    width:60%;
-  margin:5% 0 ;
-  background-color:white;
-  min-width:100%;
-      
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 5% 0;
+    background-color: white;
+    min-width: 100%;
+
 }
 
 #logo {
-margin: 2% 10% 0 0;
-width:230px;
-height:230px;
+    margin: 2% 10% 0 0;
+    width: 230px;
+    height: 230px;
 }
 
 #Story_Text {
-display:inline-block;
-height:80%;
-font-family:
-font-size 80;
-font-weight:1200;
-margin:0px;
-overflow: auto ;
+    display: inline-block;
+    height: 80%;
+    font-family:
+        font-size 80;
+    font-weight: 1200;
+    margin: 0px;
+    overflow: auto;
 }
 
 #story_text h2 {
-font-weight: bold;
+    font-weight: bold;
 }
 
 .button {
@@ -379,25 +356,23 @@ font-weight: bold;
     font-weight: 900;
     margin: 20px 0px 0 0;
     cursor: pointer;
-  }
-s
+}
 
-
-  #team-section {
+ #team-section {
     background-color: #09052f;
 
 
-  }
+}
 
-  #teamcontainer {
-    display:flex;
+#teamcontainer {
+    display: flex;
     justify-content: center;
-    color:white;
+    color: white;
     background-color: #09052f;
-    margin:0 20%;
-    padding:20%;
+    margin: 0 20%;
+    padding: 20%;
 
-  }
+}
 
 
 * {
@@ -405,20 +380,23 @@ s
     text-align: left;
 
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 .container {
@@ -444,30 +422,31 @@ q:before, q:after {
     display: flex;
 
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
 
 nav {
-  background-color: purple;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
     text-align: center;
 }
 
-nav p{
+nav p {
     color: cyan;
     padding: 10pt;
     margin: 0;
@@ -476,35 +455,35 @@ nav p{
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 .tajamBlock p {
-width: 299px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Roboto";
+    width: 299px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
 }
 
 .tajamBlock h3 {
     font-size: 30px;
-color: #ffffff;
-font-weight: 250;
-padding-left: 10px;
-margin-top: 0px;
-font-family: "Roboto";
-text-align: center;
-background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
+    color: #ffffff;
+    font-weight: 250;
+    padding-left: 10px;
+    margin-top: 0px;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
 }
 
 .help {
     width: 459px;
-height: 13px;
-display: flex;
+    height: 13px;
+    display: flex;
 }
 
 .help a {
@@ -533,25 +512,27 @@ display: flex;
 }
 
 p.adress {
-height: 80px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-margin: 0px;
-font-family: "Roboto";
-padding-left: 5px;
+    height: 80px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 0px;
+    font-family: "Roboto";
+    padding-left: 5px;
 
 }
+
 ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
-li{
+
+li {
 
 
     padding: 5pt;
@@ -560,30 +541,33 @@ li{
 
 .ourStuidoBlock h3,
 .stayInTouch h3 {
-font-size: 15px;
-letter-spacing: 1px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 900;
-font-family: "Roboto";
-height: 89px;
-margin: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    height: 89px;
+    margin: 0px;
 
 }
-.logo {display: flex;
-justify-content: center;
-align-items: center;
-width: fit-content;}
 
-.header-image{
-  width: 100%;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.header-image {
+    width: 100%;
 }
 
 .ourStuidoBlock img {
     height: 19px;
 }
 
-.ourStudioHeader, 
+.ourStudioHeader,
 .ourStudioFooter {
     display: flex;
     height: 70px;
@@ -591,15 +575,15 @@ width: fit-content;}
 
 .callMe {
     width: 271px;
-height: 23px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Roboto";
-margin: 0px;
-padding-left: 5px;
+    height: 23px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    margin: 0px;
+    padding-left: 5px;
 }
 
 .stayInTouch input {
@@ -611,9 +595,9 @@ padding-left: 5px;
     opacity: 0.1;
     font-size: 14px;
     padding-left: 20px;
-letter-spacing: 1px;
-line-height: 26px;
-margin: 0px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin: 0px;
 }
 
 .stayInTouchInput {
@@ -627,13 +611,12 @@ margin: 0px;
 
 .copyright {
     width: 459px;
-height: 13px;
-font-size: 14px;
-letter-spacing: 0px;
-line-height: 26px;
-color: #ffffff;
-font-weight: 400;
-font-family: "Roboto";
-text-align: right;
+    height: 13px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: right;
 }
-
