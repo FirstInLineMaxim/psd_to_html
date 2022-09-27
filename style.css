@@ -19,9 +19,8 @@ color: #ffffff;
 font-weight: 900;
 font-family: "Roboto";
 text-align: center;
-<<<<<<< HEAD
+}
 
-//--Nizami footer --//
 * {
     box-sizing: border-box;
     text-align: left;
@@ -39,6 +38,7 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     width: 60%;
     margin: 0 auto;
     padding: 65px 0px;
@@ -53,6 +53,7 @@ body {
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .tajamBlock .tajamHeader {
@@ -178,11 +179,17 @@ margin: 0px;
 }
 
 .stayInTouchIcons {
-    margin-top: 50px;
+    padding-top: 20px;
 }
 
 .copyright {
-    color: white;
-=======
->>>>>>> origin
+    width: 459px;
+height: 13px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto";
+text-align: right;
 }
