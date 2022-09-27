@@ -21,6 +21,56 @@ font-family: "Roboto";
 text-align: center;
 }
 
+
+
+
+
+
+
+#section-container {
+  display: flex;
+  justify-content: center;
+    width:60%;
+  margin:5% 0 ;
+  background-color:white;
+  min-width:100%;
+      
+}
+
+#logo {
+margin: 2% 10% 0 0;
+width:230px;
+height:230px;
+}
+
+#Story_Text {
+display:inline-block;
+height:80%;
+font-family:
+font-size 80;
+font-weight:1200;
+margin:0px;
+overflow: auto ;
+}
+
+#story_text h2 {
+font-weight: bold;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid rgb(24, 185, 177);
+    color: rgb(24, 185, 177);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px 0px 0 0;
+    cursor: pointer;
+  }
+
 * {
     box-sizing: border-box;
     text-align: left;
@@ -193,3 +243,4 @@ font-weight: 400;
 font-family: "Roboto";
 text-align: right;
 }
+
