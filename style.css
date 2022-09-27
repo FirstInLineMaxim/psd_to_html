@@ -3,9 +3,12 @@
 #contact_client-section{
     display: flex;
     width: 60%;
-    margin: 2% auto;
+    margin: 0 auto;
     gap: 10%;
     text-align: left;
+    justify-content: center;
+    border: #00e0d0 1px solid;
+    margin-bottom: 3rem;
 }
 
 form {
@@ -63,7 +66,7 @@ text-align: center;
 }
 
 .ClientGrid img {
-    width: 100px;
+    width: 150px;
     
 }
 
