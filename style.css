@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&display=swap');
-
-
+/* Contact Client */
 #contact_client-section{
     display: flex;
     width: 60%;
-    margin: 0 auto;
+    margin: 2% auto;
     gap: 10%;
     text-align: left;
 }
@@ -18,10 +17,11 @@ form {
 
 h3{
     font-size: 22px;
-letter-spacing: 1px;
-color: #413d4b;
-font-weight: 700;
-font-family: "Playfair Display";
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: 'Bodoni Moda', serif;
+
 }
 
 form input{
@@ -48,6 +48,26 @@ background-color: transparent;
 border: 1px solid #00e0d0;
 text-align: center;
 }
+
+.Client {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.ClientGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 4rem;
+}
+
+.ClientGrid img {
+    width: 100px;
+    
+}
+
+ /* WatchSection */
 
 #watch-section {
     display: flex;
@@ -246,3 +266,4 @@ font-weight: 400;
 font-family: "Roboto";
 text-align: right;
 }
+
