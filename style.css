@@ -116,7 +116,7 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
-
+}
 
 .container {
     box-sizing: border-box;
@@ -253,6 +253,7 @@ li{
 
     padding: 5pt;
 
+}
 
 .ourStuidoBlock h3,
 .stayInTouch h3 {
