@@ -70,9 +70,10 @@ color: #ffffff;
 font-weight: 900;
 font-family: "Roboto";
 text-align: center;
-<<<<<<< HEAD
+}
 
-//--Nizami footer --//
+/* Nizami footer */
+
 * {
     box-sizing: border-box;
     text-align: left;
@@ -234,6 +235,4 @@ margin: 0px;
 
 .copyright {
     color: white;
-=======
->>>>>>> origin
 }
