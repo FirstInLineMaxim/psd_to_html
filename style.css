@@ -2,25 +2,28 @@
 #section-container {
     
     display: flex;
+    justify-content: center;
     margin: 0 20%;    
     background-color:white;
-    text-align:center;
+    ;
 
 }
 
 #logo {
-width:20%;
-float:left;
-margin: 0 5% 0 0;
 
+float:left;
+margin: 0 10% 0 0;
+width:230px;
+height:230px;
 
 }
 
 #Story_Text {
 display:inline-block;
-padding: 30px;
+
 font-size 80em;
-margin:5% 5% 0 0;
+margin:0px; 0 0 50px;
+
 }
 
 #story_text h3 {
