@@ -76,8 +76,8 @@ font-weight: bold;
     display:flex;
 
     flex-direction:column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: flex-start; */
+    align-items: center;
     color:white;
     background-image: url(Images/bgk-header.png);
     background-size: cover;
