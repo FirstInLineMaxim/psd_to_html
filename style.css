@@ -68,22 +68,19 @@ font-weight: bold;
 
 
   #team-section {
-    
+    background-image: url(Images/bgk-header.png);
+    background-size: cover;
 
   }
 
   #teamcontainer {
     display:flex;
-
     flex-direction:column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     color:white;
-    background-image: url(Images/bgk-header.png);
-    background-size: cover;
     width: 100%;
     height: 390px;
-  
   }
 
   #Pictures {
@@ -102,9 +99,18 @@ font-weight: bold;
   .card img {
     width: 220px;
     height: 230px;
+    object-fit: cover;
   }
   .card figcaption{
-    height: 4rem;
+    margin-top: 1rem;
+    height: fit-content;
+  }
+
+  .card .Work {
+    font-size: 0.8em;
+    color:gray;
+    margin-top: 0.5em;
+    margin-bottom: 1rem;
   }
 
 
