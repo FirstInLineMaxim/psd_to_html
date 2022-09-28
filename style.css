@@ -69,8 +69,7 @@ s
 
 
   #team-section {
-    background-color: #09052f;
-
+    
 
   }
 
@@ -78,8 +77,8 @@ s
     display:flex;
     justify-content: center;
     color:white;
-    background-color: #09052f;
-    margin:0 20%;
+    background-image:url(Images/bgk-middle.png);
+    margin: 5% 20% ;
     padding:20%;
 
   }
