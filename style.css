@@ -2,7 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&display=swap");
 
 /* Nav Section */
+
+header {
+  position: relative;
+}
 .nav {
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 10px 20%;
   background-color: #292948f9;
   display: flex;
@@ -35,8 +42,9 @@ ul {
   align-items: center;
 }
 
-li {
+.menu-elem {
   padding: 5pt;
+  font-size: 10pt;
 }
 
 .logo {
