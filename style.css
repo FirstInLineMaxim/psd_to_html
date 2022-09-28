@@ -11,7 +11,7 @@ header {
   top: 0;
   left: 0;
   padding: 10px 20%;
-  background-color: #292948f9;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -58,7 +58,12 @@ nav p {
   width: 100%;
 }
 
-
+.hero-text{
+  position: absolute;
+  font-size: 24;
+  z-index: 99;
+  color: white;
+}
 
 /* Contact Client */
 #contact_client-section {
