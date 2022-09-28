@@ -1,6 +1,55 @@
 /* roxi here making a test  */
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&display=swap");
 
+/* Nav Section */
+.nav {
+  padding: 10px 20%;
+  background-color: #292948f9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+nav p {
+  color: cyan;
+  padding: 10pt;
+  margin: 0;
+  font-size: 14pt;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  padding: 5pt;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.header-image {
+  width: 100%;
+}
+
 /* Contact Client */
 #contact_client-section {
   display: flex;
@@ -111,30 +160,7 @@ table {
   border-spacing: 0;
 }
 
-/* Nav Section */
-.nav {
-  padding: 10px 20%;
-  background-color: #292948f9;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-}
 
-.nav a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-nav p {
-  color: cyan;
-  padding: 10pt;
-  margin: 0;
-  font-size: 14pt;
-  position: relative;
-}
 
 table {
   border-collapse: collapse;
@@ -204,18 +230,7 @@ p.adress {
   padding-left: 5px;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
-}
 
-li {
-  padding: 5pt;
-}
 
 .ourStuidoBlock h3,
 .stayInTouch h3 {
@@ -229,16 +244,6 @@ li {
   margin: 0px;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-}
-
-.header-image {
-  width: 100%;
-}
 
 .ourStuidoBlock img {
   height: 19px;
@@ -407,28 +412,6 @@ table {
   border-spacing: 0;
 }
 
-nav {
-  background-color: purple;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-
-nav p {
-  color: cyan;
-  padding: 10pt;
-  margin: 0;
-  font-size: 14pt;
-  position: relative;
-}
 
 table {
   border-collapse: collapse;
@@ -498,18 +481,6 @@ p.adress {
   padding-left: 5px;
 }
 
-ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
-}
-
-li {
-  padding: 5pt;
-}
 
 .ourStuidoBlock h3,
 .stayInTouch h3 {
@@ -523,16 +494,6 @@ li {
   margin: 0px;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-}
-
-.header-image {
-  width: 100%;
-}
 
 .ourStuidoBlock img {
   height: 19px;
