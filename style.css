@@ -25,7 +25,7 @@ header {
   text-align: center;
 }
 
-nav p {
+.company-name {
   color: cyan;
   padding: 10pt;
   margin: 0;
@@ -63,6 +63,14 @@ nav p {
   font-size: 24;
   z-index: 99;
   color: white;
+}
+
+header p {
+  color: white;
+}
+.hero-text-div{
+  position: absolute;
+  text-align: center;
 }
 
 /* Contact Client */
