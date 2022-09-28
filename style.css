@@ -100,6 +100,7 @@ font-weight: bold;
     width: 220px;
     height: 230px;
     object-fit: cover;
+    object-position: top;
   }
   .card figcaption{
     margin-top: 1rem;
