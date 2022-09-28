@@ -76,7 +76,11 @@ font-weight: bold;
   #teamcontainer {
     display:flex;
     flex-direction:column;
+<<<<<<< HEAD
     justify-content: flex-start;
+=======
+    /* justify-content: flex-start; */
+>>>>>>> 75d7597e8600a4fc5ca058c596b40326ce15eba1
     align-items: center;
     color:white;
     width: 100%;
