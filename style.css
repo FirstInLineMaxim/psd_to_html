@@ -269,16 +269,27 @@ p.adress {
   padding-left: 5px;
 }
 
-.ourStuidoBlock h3,
-.stayInTouch h3 {
-  font-size: 15px;
-  letter-spacing: 1px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: 900;
-  font-family: "Roboto";
-  height: 89px;
-  margin: 0px;
+.ourStuidoBlock h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    height: 70px;
+    margin: 0px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.header-image {
+    width: 100%;
 }
 
 .ourStuidoBlock img {
@@ -298,29 +309,17 @@ p.adress {
   padding-left: 5px;
 }
 
-.stayInTouch input {
-  width: 221px;
-  color: white;
-  height: 45px;
-  background-color: #09052f;
-  border: 1px solid #ffffff;
-  opacity: 0.1;
-  font-size: 14px;
-  padding-left: 20px;
-  letter-spacing: 1px;
-  line-height: 26px;
-  margin: 0px;
+
+h3.stayInTouchH3 {
+    width: 100%;;
+    height: 65px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: left;
 }
 
-.stayInTouchInput {
-  display: flex;
-  height: 45px;
-  width: 40px;
-}
-
-.stayInTouchIcons {
-  padding-top: 20px;
-}
 
 .copyright {
   width: 459px;
@@ -363,31 +362,88 @@ p.adress {
 }
 
 .button {
-  background-color: white;
-  border: 1px solid rgb(24, 185, 177);
-  color: rgb(24, 185, 177);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 900;
-  margin: 20px 0px 0 0;
-  cursor: pointer;
-}
+    background-color: white;
+    border: 1px solid rgb(24, 185, 177);
+    color: rgb(24, 185, 177);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 20px 0px 0 0;
+    cursor: pointer;
 
-#team-section {
-  background-color: #09052f;
-}
+  }
 
-#teamcontainer {
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-color: #09052f;
-  margin: 0 20%;
-  padding: 20%;
-}
+
+  #team-section {
+    
+    background-image: url(Images/bgk-header.png);
+    background-size: cover;
+    width: 100%;
+    
+     background-image: url(Images/bgk-header.png);
+    background-size: cover;
+  }
+
+  #teamcontainer {
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+    color:white;
+        
+         width: 100%;
+    
+  }
+
+  #up {
+        display:flex;
+        flex-direction:column;
+
+  }
+  .Meet {
+        height:100px;
+
+  }
+  
+
+  #Pictures {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width:60%;
+    
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px white;
+  }
+
+  .card img {
+    width: 220px;
+    height: 230px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .card figcaption{
+    margin-top: 1rem;
+    height: fit-content;
+  }
+
+  .card .Work {
+    font-size: 0.8em;
+    color:gray;
+    margin-top: 0.5em;
+    margin-bottom: 1rem;
+  }
+
+
+
 
 * {
   box-sizing: border-box;
@@ -429,20 +485,6 @@ q:after {
   background-image: url(Images/bgk-footer.png);
 }
 
-.tajamBlock,
-.ourStuidoBlock,
-.stayInTouch {
-  width: 30%;
-  padding-left: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-.tajamBlock .tajamHeader {
-  display: flex;
-}
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -451,27 +493,6 @@ table {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-.tajamBlock p {
-  width: 299px;
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: 300;
-  font-family: "Roboto";
-}
-
-.tajamBlock h3 {
-  font-size: 30px;
-  color: #ffffff;
-  font-weight: 250;
-  padding-left: 10px;
-  margin-top: 0px;
-  font-family: "Roboto";
-  text-align: center;
-  background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
 }
 
 .help {
@@ -501,10 +522,6 @@ table {
   color: black;
 }
 
-.tajamBlock img {
-  height: 50px;
-}
-
 p.adress {
   height: 80px;
   font-size: 14px;
@@ -516,40 +533,12 @@ p.adress {
   padding-left: 5px;
 }
 
-.ourStuidoBlock h3,
-.stayInTouch h3 {
-  font-size: 15px;
-  letter-spacing: 1px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: 900;
-  font-family: "Roboto";
-  height: 89px;
-  margin: 0px;
-}
-
-.ourStuidoBlock img {
-  height: 19px;
-}
-
 .ourStudioHeader,
 .ourStudioFooter {
   display: flex;
   height: 70px;
 }
 
-.callMe {
-  width: 271px;
-  height: 23px;
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: 300;
-  font-family: "Roboto";
-  margin: 0px;
-  padding-left: 5px;
-}
 
 .stayInTouch input {
   width: 221px;
@@ -565,6 +554,7 @@ p.adress {
   margin: 0px;
 }
 
+
 .stayInTouchInput {
   display: flex;
   height: 45px;
@@ -572,6 +562,16 @@ p.adress {
 
 .stayInTouchIcons {
   padding-top: 20px;
+}
+
+.stayInTouch button {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.stayInTouch button img {
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .copyright {
@@ -609,19 +609,29 @@ p.adress {
 }
 
 .mainContainer {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .ContainerBlock {
-  width: 33%;
-  text-align: center;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 10px auto;
-  padding: 20px;
+    width: 33%;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.con1, .con2, .con3 {
+    margin: 0%;
+    border-bottom: 1px solid rgb(169, 165, 165);
+}
+
+.con1, .con2, .con4, .con5 {
+    margin: 0%;
+    border-right: 1px solid rgb(169, 165, 165);
 }
 
 .ContainerBlock h4 {
