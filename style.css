@@ -392,14 +392,14 @@ h3.stayInTouchH3 {
     justify-content: center; 
     align-items: center;
     color:white;
-        
-         width: 100%;
+       width: 100%;
     
   }
 
   #up {
         display:flex;
         flex-direction:column;
+        justify-content:space-between;
 
   }
   .Meet {
