@@ -228,15 +228,14 @@ li {
 
 }
 
-.ourStuidoBlock h3,
-.stayInTouch h3 {
-    font-size: 15px;
+.ourStuidoBlock h3 {
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 26px;
     color: #ffffff;
     font-weight: 900;
     font-family: "Roboto";
-    height: 89px;
+    height: 70px;
     margin: 0px;
 
 }
@@ -270,29 +269,17 @@ li {
     padding-left: 5px;
 }
 
-.stayInTouch input {
-    width: 221px;
-    color: white;
-    height: 45px;
-    background-color: #09052f;
-    border: 1px solid #ffffff;
-    opacity: 0.1;
-    font-size: 14px;
-    padding-left: 20px;
-    letter-spacing: 1px;
-    line-height: 26px;
-    margin: 0px;
+
+h3.stayInTouchH3 {
+    width: 100%;;
+    height: 65px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: left;
 }
 
-.stayInTouchInput {
-    display: flex;
-    height: 45px;
-    width: 40px;
-}
-
-.stayInTouchIcons {
-    padding-top: 20px;
-}
 
 .copyright {
     width: 459px;
@@ -406,20 +393,6 @@ q:before, q:after {
     background-image: url(Images/bgk-footer.png);
 }
 
-.tajamBlock,
-.ourStuidoBlock,
-.stayInTouch {
-    width: 30%;
-    padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-}
-
-.tajamBlock .tajamHeader {
-    display: flex;
-
-}
 
 table {
     border-collapse: collapse;
@@ -457,27 +430,6 @@ table {
     border-spacing: 0;
 }
 
-.tajamBlock p {
-    width: 299px;
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: 300;
-    font-family: "Roboto";
-}
-
-.tajamBlock h3 {
-    font-size: 30px;
-    color: #ffffff;
-    font-weight: 250;
-    padding-left: 10px;
-    margin-top: 0px;
-    font-family: "Roboto";
-    text-align: center;
-    background-color: linear-gradient(90deg, #00e0d0 0%, #4aa3cc 100%);
-}
-
 .help {
     width: 459px;
     height: 13px;
@@ -503,10 +455,6 @@ table {
     border-radius: 5px;
     padding: 15px;
     color: black;
-}
-
-.tajamBlock img {
-    height: 50px;
 }
 
 p.adress {
@@ -537,52 +485,12 @@ li {
 
 }
 
-.ourStuidoBlock h3,
-.stayInTouch h3 {
-    font-size: 15px;
-    letter-spacing: 1px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: 900;
-    font-family: "Roboto";
-    height: 89px;
-    margin: 0px;
-
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-}
-
-.header-image {
-    width: 100%;
-}
-
-.ourStuidoBlock img {
-    height: 19px;
-}
-
 .ourStudioHeader,
 .ourStudioFooter {
     display: flex;
     height: 70px;
 }
 
-.callMe {
-    width: 271px;
-    height: 23px;
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: 300;
-    font-family: "Roboto";
-    margin: 0px;
-    padding-left: 5px;
-}
 
 .stayInTouch input {
     width: 221px;
@@ -598,6 +506,7 @@ li {
     margin: 0px;
 }
 
+
 .stayInTouchInput {
     display: flex;
     height: 45px;
@@ -605,6 +514,16 @@ li {
 
 .stayInTouchIcons {
     padding-top: 20px;
+}
+
+.stayInTouch button {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.stayInTouch button img {
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 .copyright {
