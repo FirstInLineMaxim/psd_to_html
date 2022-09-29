@@ -193,7 +193,8 @@ form input {
 }
 
 .tajamBlock .tajamHeader {
-  display: flex;
+  display: block;
+  width: 100%;
 }
 
 table {
@@ -383,9 +384,7 @@ h3.stayInTouchH3 {
     background-size: cover;
     width: 100%;
     
-     background-image: url(Images/bgk-header.png);
-    background-size: cover;
-  }
+       }
 
   #teamcontainer {
     display:flex;
@@ -482,12 +481,11 @@ q:after {
 
 .footer {
   background-image: url(Images/bgk-footer.png);
+  background-size: 100%;
+
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+
 
 table {
   border-collapse: collapse;
