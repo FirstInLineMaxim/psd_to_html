@@ -4,7 +4,23 @@
 /* Nav Section */
 
 header {
-  position: relative;
+  box-sizing: border-box;
+  height: 20rem;
+  background-image: url(./Images/bgk-header.png);
+  width: 100%;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.hero-text-div {
+  box-sizing: border-box;
+  max-width: 40rem;
 }
 .nav {
   position: absolute;
@@ -16,7 +32,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+  width: 100%;
 }
 
 .nav a {
@@ -38,8 +54,9 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
- 
+
   align-items: center;
+  padding-right: 20vh;
 }
 
 .menu-elem {
@@ -49,16 +66,17 @@ header {
 
 .logo {
   display: flex;
- 
+
   align-items: center;
   width: fit-content;
+  padding-left: 20vh;
 }
 
 .header-image {
   width: 100%;
 }
 
-.hero-text{
+.hero-text {
   position: absolute;
   font-size: 24;
   z-index: 99;
@@ -68,7 +86,7 @@ header {
 header p {
   color: white;
 }
-.hero-text-div{
+.hero-text-div {
   position: absolute;
   text-align: center;
 }
@@ -183,8 +201,6 @@ table {
   border-spacing: 0;
 }
 
-
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -253,8 +269,6 @@ p.adress {
   padding-left: 5px;
 }
 
-
-
 .ourStuidoBlock h3,
 .stayInTouch h3 {
   font-size: 15px;
@@ -266,7 +280,6 @@ p.adress {
   height: 89px;
   margin: 0px;
 }
-
 
 .ourStuidoBlock img {
   height: 19px;
@@ -435,7 +448,6 @@ table {
   border-spacing: 0;
 }
 
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -504,7 +516,6 @@ p.adress {
   padding-left: 5px;
 }
 
-
 .ourStuidoBlock h3,
 .stayInTouch h3 {
   font-size: 15px;
@@ -516,7 +527,6 @@ p.adress {
   height: 89px;
   margin: 0px;
 }
-
 
 .ourStuidoBlock img {
   height: 19px;
