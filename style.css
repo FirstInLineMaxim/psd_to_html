@@ -401,7 +401,7 @@ h3.stayInTouchH3 {
   #teamcontainer {
   display:flex;
   flex-direction:column;
-  justify-content: space-between; 
+  justify-content: space-around; 
   align-items: center;
   color:white;
   width: 100%;
@@ -419,12 +419,48 @@ h3.stayInTouchH3 {
 }
 
 
+
 .Meet {
   display:flex;
   justify-content:center;
   min-height: 50px;
+  font-weight:100;
   min-width:5%;
+
+  
 }
+
+.Meet.title { 
+font-size:1.3rem;
+font-weight:900;
+
+}
+
+.down {
+display:flex;
+justify-content:space-around;
+margin: 3%; ;
+min-height:20px;
+
+}
+
+.button1 {
+  
+  border: 1px solid rgb(24, 185, 177);
+  color: rgb(24, 185, 177);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px 0px 60px 0;
+  cursor: pointer;
+
+}
+
+
+
 
 
 #Pictures {
