@@ -26,8 +26,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 20%;
-  background-color: transparent;
+   background-color: transparent;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -271,26 +270,26 @@ p.adress {
 }
 
 .ourStuidoBlock h3 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: 900;
-    font-family: "Roboto";
-    height: 70px;
-    margin: 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  height: 70px;
+  margin: 0px;
 
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
 .header-image {
-    width: 100%;
+  width: 100%;
 }
 
 .ourStuidoBlock img {
@@ -312,13 +311,13 @@ p.adress {
 
 
 h3.stayInTouchH3 {
-    width: 100%;;
-    height: 65px;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 900;
-    font-family: "Roboto";
-    text-align: left;
+  width: 100%;;
+  height: 65px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: left;
 }
 
 
@@ -363,82 +362,82 @@ h3.stayInTouchH3 {
 }
 
 .button {
-    background-color: white;
-    border: 1px solid rgb(24, 185, 177);
-    color: rgb(24, 185, 177);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 900;
-    margin: 20px 0px 0 0;
-    cursor: pointer;
+  background-color: white;
+  border: 1px solid rgb(24, 185, 177);
+  color: rgb(24, 185, 177);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 20px 0px 0 0;
+  cursor: pointer;
 
   }
 
 
   #team-section {
     
-    background-image: url(Images/bgk-header.png);
-    background-size: cover;
-    width: 100%;
+  background-image: url(Images/bgk-header.png);
+  background-size: cover;
+  width: 100%;
     
        }
 
   #teamcontainer {
-    display:flex;
-    flex-direction:column;
-    justify-content: center; 
-    align-items: center;
-    color:white;
-       width: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center; 
+  align-items: center;
+  color:white;
+  width: 100%;
     
   }
 
   #up {
-        display:flex;
-        flex-direction:column;
-        justify-content:space-between;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
 
   }
   .Meet {
-        height:100px;
+  height:100px;
 
   }
   
 
   #Pictures {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    width:60%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width:60%;
     
   }
 
   .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px white;
   }
 
   .card img {
-    width: 220px;
-    height: 230px;
-    object-fit: cover;
-    object-position: top;
+  width: 220px;
+  height: 230px;
+  object-fit: cover;
+  object-position: top;
   }
   .card figcaption{
-    margin-top: 1rem;
-    height: fit-content;
+  margin-top: 1rem;
+  height: fit-content;
   }
 
   .card .Work {
-    font-size: 0.8em;
-    color:gray;
-    margin-top: 0.5em;
-    margin-bottom: 1rem;
+  font-size: 0.8em;
+  color:gray;
+  margin-top: 0.5em;
+  margin-bottom: 1rem;
   }
 
 
@@ -453,7 +452,7 @@ body {
 
 
 ol {
-    list-style: none;
+  list-style: none;
 
 }
 
