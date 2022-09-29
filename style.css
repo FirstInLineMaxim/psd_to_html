@@ -408,8 +408,6 @@ h3.stayInTouchH3 {
   }
 
 
-
-
 * {
     box-sizing: border-box;
     text-align: left;
@@ -420,7 +418,7 @@ body {
     line-height: 1;
 }
 
-ol, ul {
+ol,  {
     list-style: none;
 }
 
@@ -523,21 +521,9 @@ p.adress {
 
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-}
-
-li {
 
 
-    padding: 5pt;
 
-}
 
 .ourStudioHeader,
 .ourStudioFooter {
