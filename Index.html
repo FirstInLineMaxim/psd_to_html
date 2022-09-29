@@ -5,51 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
       <!-- Roxis Navbar -->
-      <nav>
+      <section id="hero-section">
+        
+        <div class="hero-text-div">
+          <h1 class="hero-text">We are an awesome creative agency</h1>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+            velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+            Morbi accumsan ipsum velit.
+          </p>
+        </div>
+      </section>
+
+      <nav class="nav">
         <div class="logo">
           <img src="./Images/logo.png" alt="Company Logo" />
           <p class="company-name">tajam</p>
         </div>
         <ul class="navbar">
-          <a href=""></a>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">EXPERTISE</a></li>
-          <li><a href="#">TEAMS</a></li>
-          <li><a href="#">WORKS</a></li>
-          <li><a href="#">PEOPLE SAY</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a class="menu-elem" href="#">HOME</a></li>
+          <li><a class="menu-elem" href="#">ABOUT</a></li>
+          <li><a class="menu-elem" href="#">EXPERTISE</a></li>
+          <li><a class="menu-elem" href="#">TEAMS</a></li>
+          <li><a class="menu-elem" href="#">WORKS</a></li>
+          <li><a class="menu-elem" href="#">PEOPLE SAY</a></li>
+          <li><a class="menu-elem" href="#">CONTACT</a></li>
         </ul>
       </nav>
-      <section id="hero-section">
-        <img
-          class="header-image"
-          src="./Images/bgk-header.png"
-          alt="header image of forest"
-        />
-      </section>
     </header>
-  
+
     <main>
       <section id="our_story-section">
         <div id="section-container">
-            <img src="images/logo-big.png" id="logo">
-         <div id="Story_Text">
+          <img src="images/logo-big.png" id="logo" />
+          <div id="Story_Text">
             <h2>Our Story</h2>
-               <p>This is Photoshop`s version of Lorem ipsum. Proin gravida nibh vel velit auctor<br> aliquet. Aenan sollicitudin, lorem quis bibendum auctor nisi elit consequat ipsum,<br> nec sagittis sem nibh id elit. Duis sed odio amet nibh vulputate cursus<br>
-                 <br> 
-                 Morbi accumsan ipsum velit.Nam nec tellus a odio tincidunt auctor a ornare odio.<br>Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu<br> ad litora torquent per conubia nostra, per inceptos himenaeos.
-                </p> 
-              <div>
-               <a href="#" class="button">Learn more</a>                           
-             </div>
-         </div>
+            <p>
+              This is Photoshop`s version of Lorem ipsum. Proin gravida nibh vel
+              velit auctor<br />
+              aliquet. Aenan sollicitudin, lorem quis bibendum auctor nisi elit
+              consequat ipsum,<br />
+              nec sagittis sem nibh id elit. Duis sed odio amet nibh vulputate
+              cursus<br />
+              <br />
+              Morbi accumsan ipsum velit.Nam nec tellus a odio tincidunt auctor
+              a ornare odio.<br />Sed non mauris vitae erat consequat auctor eu
+              in elit. Class aptent taciti sociosqu<br />
+              ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+            <div>
+              <a href="#" class="button">Learn more</a>
+            </div>
+          </div>
         </div>
     </section>
         <section id="watch-section">
@@ -129,32 +144,38 @@
 
       
       <section id="contact_client-section">
-                <div class="Form">
-                    <h3>GIVE US A GOOD NEWS</h3>
-                    <form>
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <input type="text" placeholder="Subject">
-                        <textarea class="massage" type="text" placeholder="Your Massage"></textarea>
-                        <input class="button" type="button" value="SUBMIT">
-                        
-                    </form>
-                </div>
-                    <div class="Client">
-                    <h3>OUR HAPPY CLIENT</h3>
-                        <div class="ClientGrid">
-                            <img src="/Images/Zara_Logo.png" alt="Zara" />
-                            <img src="/Images/Logo_of_Mango_(new).png" alt="Mango" />
-                            <img src="/Images/Barneys_New_York_Logo.png" alt="Barneys New York" />
-                            <img src="/Images/Gucci_Logo.png"alt="Gucci"  />
-                            <img src="/Images/Calvin_klein_logo.png" alt="Calvin Klein" />
-                            <img src="/Images/Logo_NIKE.png" alt="NIKE" />
-                            <img src="/Images/Converse_logo.png"alt="Converse"  />
-                            <img src="Images/Puma_Logo.png" alt="Puma" />
-                            <img src="/Images/Levi's_logo.png" alt="Levi's" />
-                            <img src="/Images/Billabong.png" alt="Billabong" />
-                        </div>
-                     </div>
+        <div class="Form">
+          <h3>GIVE US A GOOD NEWS</h3>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea
+              class="massage"
+              type="text"
+              placeholder="Your Massage"
+            ></textarea>
+            <input class="button" type="button" value="SUBMIT" />
+          </form>
+        </div>
+        <div class="Client">
+          <h3>OUR HAPPY CLIENT</h3>
+          <div class="ClientGrid">
+            <img src="/Images/Zara_Logo.png" alt="Zara" />
+            <img src="/Images/Logo_of_Mango_(new).png" alt="Mango" />
+            <img
+              src="/Images/Barneys_New_York_Logo.png"
+              alt="Barneys New York"
+            />
+            <img src="/Images/Gucci_Logo.png" alt="Gucci" />
+            <img src="/Images/Calvin_klein_logo.png" alt="Calvin Klein" />
+            <img src="/Images/Logo_NIKE.png" alt="NIKE" />
+            <img src="/Images/Converse_logo.png" alt="Converse" />
+            <img src="Images/Puma_Logo.png" alt="Puma" />
+            <img src="/Images/Levi's_logo.png" alt="Levi's" />
+            <img src="/Images/Billabong.png" alt="Billabong" />
+          </div>
+        </div>
       </section>
     </main>
     <section class="footer">
@@ -201,11 +222,45 @@
                 <p class="copyright">Copyright © 2015 - Tajem Creative</p>
             </div>
         </div>
+        <div class="ourStuidoBlock">
+          <h3>OUR STUDIO</h3>
+          <div class="ourStudioHeader">
+            <img src="images/png/big104.png" alt="" />
+            <p class="adress">
+              Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - J
+            </p>
+          </div>
+          <div class="ourStudioFooter">
+            <img src="images/png/phone351.png" alt="" />
+            <p class="callMe">(+62) 21-2224 3333</p>
+          </div>
+        </div>
+        <div class="stayInTouch">
+          <h3>STAY IN TOUCH</h3>
+          <div class="stayInTouchInput">
+            <input
+              type="text"
+              name="subscribe"
+              id="subscribe"
+              value="Subscribe our newsletter"
+            />
+            <button><img src="Images/paper122.png" alt="" /></button>
+          </div>
+          <!-- test -->
+
+          <div class="stayInTouchIcons">
+            <img src="Images/facebook.png" alt="" />
+            <img src="Images/twitter.png" alt="" />
+            <img src="Images/dribbble.png" alt="" />
+            <img src="Images/instagram.png" alt="" />
+            <img src="images/png/" alt="" />
+            <img src="Images/youtube.png" alt="" />
+          </div>
+          <p class="copyright">Copyright © 2015 - Tajem Creative</p>
+        </div>
+      </div>
     </section>
-
-</body>
-
-
+  </body>
 </html>
 
 
