@@ -20,11 +20,13 @@ header {
   height: 100%;
   width: 100%;
 }
+
 .hero-text-div {
-  
+
   box-sizing: border-box;
   max-width: 40rem;
 }
+
 .nav {
   box-sizing: border-box;
   position: absolute;
@@ -73,7 +75,7 @@ header {
 
   align-items: center;
   width: fit-content;
- 
+
 }
 
 .header-image {
@@ -92,6 +94,7 @@ header {
 header p {
   color: white;
 }
+
 .hero-text-div {
   position: absolute;
   text-align: center;
@@ -277,26 +280,26 @@ p.adress {
 }
 
 .ourStuidoBlock h3 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 26px;
-    color: #ffffff;
-    font-weight: 900;
-    font-family: "Roboto";
-    height: 70px;
-    margin: 0px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  height: 70px;
+  margin: 0px;
 
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
 .header-image {
-    width: 100%;
+  width: 100%;
 }
 
 .ourStuidoBlock img {
@@ -318,13 +321,14 @@ p.adress {
 
 
 h3.stayInTouchH3 {
-    width: 100%;;
-    height: 65px;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 900;
-    font-family: "Roboto";
-    text-align: left;
+  width: 100%;
+  ;
+  height: 65px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: left;
 }
 
 
@@ -369,83 +373,85 @@ h3.stayInTouchH3 {
 }
 
 .button {
-    background-color: white;
-    border: 1px solid rgb(24, 185, 177);
-    color: rgb(24, 185, 177);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 900;
-    margin: 20px 0px 0 0;
-    cursor: pointer;
+  background-color: white;
+  border: 1px solid rgb(24, 185, 177);
+  color: rgb(24, 185, 177);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 20px 0px 0 0;
+  cursor: pointer;
 
-  }
+}
 
 
-  #team-section {
-    
-    background-image: url(Images/bgk-header.png);
-    background-size: cover;
-    width: 100%;
-    
-       }
+#team-section {
 
-  #teamcontainer {
-    display:flex;
-    flex-direction:column;
-    justify-content: center; 
-    align-items: center;
-    color:white;
-       width: 100%;
-    
-  }
+  background-image: url(Images/bgk-header.png);
+  background-size: cover;
+  width: 100%;
 
-  #up {
-        display:flex;
-        flex-direction:column;
-        justify-content:space-between;
+}
 
-  }
-  .Meet {
-        height:100px;
+#teamcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
 
-  }
-  
+}
 
-  #Pictures {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    width:60%;
-    
-  }
+#up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid 1px white;
-  }
+}
 
-  .card img {
-    width: 220px;
-    height: 230px;
-    object-fit: cover;
-    object-position: top;
-  }
-  .card figcaption{
-    margin-top: 1rem;
-    height: fit-content;
-  }
+.Meet {
+  height: 100px;
 
-  .card .Work {
-    font-size: 0.8em;
-    color:gray;
-    margin-top: 0.5em;
-    margin-bottom: 1rem;
-  }
+}
+
+
+#Pictures {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 60%;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px white;
+}
+
+.card img {
+  width: 220px;
+  height: 230px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card figcaption {
+  margin-top: 1rem;
+  height: fit-content;
+}
+
+.card .Work {
+  font-size: 0.8em;
+  color: gray;
+  margin-top: 0.5em;
+  margin-bottom: 1rem;
+}
 
 
 * {
@@ -459,7 +465,7 @@ body {
 
 
 ol {
-    list-style: none;
+  list-style: none;
 
 }
 
@@ -527,18 +533,18 @@ table {
 
 p.adress {
 
-    height: 80px;
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 26px;
-    color: #ffffff;
-    margin: 0px;
-    font-family: "Roboto";
-    padding-left: 5px;
+  height: 80px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0px;
+  font-family: "Roboto";
+  padding-left: 5px;
 
 }
 
-  
+
 
 .ourStudioHeader,
 .ourStudioFooter {
@@ -572,13 +578,13 @@ p.adress {
 }
 
 .stayInTouch button {
-    width: 50px;
-    margin-left: 10px;
+  width: 50px;
+  margin-left: 10px;
 }
 
 .stayInTouch button img {
-    padding-left: 10px;
-    padding-top: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 .copyright {
@@ -616,29 +622,29 @@ p.adress {
 }
 
 .mainContainer {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 40px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .ContainerBlock {
-    width: 33%;
-    text-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 40px;
+  width: 33%;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
 }
 
 .con1, .con2, .con3 {
-    margin: 0%;
-    border-bottom: 1px solid rgb(169, 165, 165);
+  margin: 0%;
+  border-bottom: 1px solid rgb(169, 165, 165);
 }
 
 .con1, .con2, .con4, .con5 {
-    margin: 0%;
-    border-right: 1px solid rgb(169, 165, 165);
+  margin: 0%;
+  border-right: 1px solid rgb(169, 165, 165);
 }
 
 .ContainerBlock h4 {
@@ -666,6 +672,6 @@ p.adress {
   letter-spacing: 0px;
 }
 
-@media only screen and (max-width: 992px) and (min-width: 750px) {
 
+@media only screen and (max-width: 992px) and (min-width: 750px) {
 }
