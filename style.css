@@ -164,11 +164,11 @@ form input {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
-  /* column-gap: 4rem; */
+  column-gap: 2rem;
 }
 
 .ClientGrid img {
-  width: 50%;
+  width: 100%;
 }
 
 /* WatchSection */
@@ -769,9 +769,4 @@ margin: 15px;
   .help {
     display: inline-block;
   }
-}
-
-@media screen only and (max-width:1500px) and (min-width:992px){
-
-  
 }
