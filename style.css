@@ -201,7 +201,7 @@ form input {
 }
 
 .tajamBlock .tajamHeader {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
@@ -590,8 +590,7 @@ p.adress {
 
 
 
-.ourStudioHeader,
-.ourStudioFooter {
+.ourStudioHeader {
   display: flex;
   height: 70px;
 }
@@ -640,7 +639,7 @@ p.adress {
   color: #ffffff;
   font-weight: 400;
   font-family: "Roboto";
-  text-align: right;
+  text-align: left;
 }
 
 #expertise-section {
@@ -716,6 +715,52 @@ p.adress {
   letter-spacing: 0px;
 }
 
+
 @media only screen and (max-width: 992px) and (min-width: 750px) {
 
+  .ContainerBlock p {
+    padding-top: 10px;
+    height: 90px;
+  }
+
+  .ContainerBlock h4{
+    font-size: 7px;
+    height: auto;
+  }
+
+  .ContainerBlock {
+    padding: 20px;
+    height: 280px;
+  }
+
+  #expertise-section {
+    width: 100%;
+    height: 750px;
+  }
+  .tajamBlock,
+  .stayInTouch {
+padding: 0px;
+margin: 15px;
+  }
+
+  .ourStuidoBlock {
+    margin: 15px;
+  }
+
+  .stayInTouch {
+    width: inherit;
+  }
+  
+  .stayInTouch input {
+    width: auto;
+  }
+
+  .container {
+    font-size: 7px;
+    padding: 25px 0px;
+    margin-left: 75px;
+  }
+  .help {
+    display: inline-block;
+  }
 }
