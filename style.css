@@ -169,6 +169,7 @@ form input {
 
 .ClientGrid img {
   width: 100%;
+  max-width: 150px;
 }
 
 /* WatchSection */
@@ -181,6 +182,7 @@ form input {
   background-image: url(/Images/bgk-middle.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 70vh;
   min-width: 460px;
 }
