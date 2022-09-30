@@ -12,6 +12,12 @@ header {
   height: 30rem;
 }
 
+body {
+font-family: "Bodoni Moda", serif;
+font-family: "Bodoni Moda", serif;
+}
+
+
 #hero-section {
   display: flex;
   flex-direction: column;
@@ -297,6 +303,8 @@ p.adress {
 
 }
 
+
+
 .logo {
   display: flex;
   justify-content: center;
@@ -361,23 +369,37 @@ h3.stayInTouchH3 {
   min-width: 100%;
 }
 
+
+/*story */
+
 #logo {
-  margin: 2% 10% 0 0;
+  display:flex;
+  flex-shrink:3;
+  margin: 0% 5% 0 0;
   width: 230px;
   height: 230px;
 }
 
 #Story_Text {
-  display: inline-block;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
   height: 80%;
-  font-family: font-size 80;
-  font-weight: 1200;
+  font-size: 80;
+  font-weight: 50;
   margin: 0px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #story_text h2 {
   font-weight: bold;
+}
+
+#our {
+  font-size:1.5em;
+  margin: 0 0 20px 0 ;
+
+
 }
 
 .button {
@@ -421,8 +443,9 @@ h3.stayInTouchH3 {
   #up {
   display: flex;
   flex-direction: column;
+  flex-shrink:3;
   justify-content: center;
-  margin:5%;
+  margin:5% 0 2% 0;
 
 }
 
@@ -546,8 +569,7 @@ q:after {
 
 .footer {
   background-image: url(Images/bgk-footer.png);
-  background-size: 100%;
-
+  background-size: cover;
 }
 
 
@@ -732,6 +754,10 @@ p.adress {
     height: 90px;
   }
 
+  .footer {
+    background-position: bottom;
+  }
+
   .ContainerBlock h4{
     font-size: 7px;
     height: auto;
@@ -739,7 +765,7 @@ p.adress {
 
   .ContainerBlock {
     padding: 20px;
-    height: 280px;
+    height: 250px;
   }
 
   #expertise-section {
@@ -796,3 +822,12 @@ margin: 15px;
   }
 
 }
+
+#Story_Text {
+font-size:0.7em;
+
+}
+
+
+
+
