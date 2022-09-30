@@ -56,7 +56,7 @@ font-family: "Bodoni Moda", serif;
   color: cyan;
   padding: 10pt;
   margin: 0;
-  font-size: 14pt;
+  font-size: 1,5rem;
   position: relative;
 }
 
@@ -72,7 +72,7 @@ font-family: "Bodoni Moda", serif;
 
 .menu-elem {
   padding: 5pt;
-  font-size: 10pt;
+  font-size: 0,5rem;
 }
 
 .logo {
@@ -90,9 +90,9 @@ font-family: "Bodoni Moda", serif;
 .hero-text {
 
   font-size: 24;
-  z-index: 99;
+ 
   color: white;
-  padding: 2rem;
+  padding: 5%;
   text-align: center;
 }
 
@@ -746,6 +746,12 @@ p.adress {
   letter-spacing: 0px;
 }
 
+@media (max-width: 800px){
+  .hero-text-div {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
 
 @media only screen and (max-width: 992px) and (min-width: 750px) {
 
@@ -827,7 +833,5 @@ margin: 15px;
 font-size:0.7em;
 
 }
-
-
 
 
