@@ -402,6 +402,7 @@ h3.stayInTouchH3 {
     
   background-image: url(Images/bgk-header.png);
   background-size: cover;
+  background-position: center;
   width: 100%;
     
        }
@@ -474,6 +475,7 @@ min-height:20px;
 #Pictures {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
   width: 60%;
 
