@@ -104,7 +104,7 @@ header p {
   display: flex;
   width: 60%;
   margin: 3rem auto;
-  gap: 10%;
+  gap: 5%;
   text-align: left;
   justify-content: center;
 }
@@ -114,6 +114,7 @@ form {
   flex-direction: column;
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 460px;
 }
 
 h3 {
@@ -125,7 +126,7 @@ h3 {
 }
 
 form input {
-  width: 460px;
+  max-width: 460px;
   height: 45px;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -140,8 +141,8 @@ form input {
 
 .button {
   color: #00e0d0;
-  width: 120px;
-  height: 40px;
+  max-width: 120px;
+  max-height: 40px;
   border-radius: 2px;
   background-color: transparent;
   border: 1px solid #00e0d0;
@@ -152,17 +153,22 @@ form input {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 50%;
+}
+
+.Form {
+  width: 50%;
 }
 
 .ClientGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
-  column-gap: 4rem;
+  column-gap: 2rem;
 }
 
 .ClientGrid img {
-  width: 150px;
+  width: 100%;
 }
 
 /* WatchSection */
