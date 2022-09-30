@@ -785,5 +785,14 @@ margin: 15px;
     display: none;
   }
 
+  .Form {
+    width: 95%;
+  }
+
+  form,
+  form input
+{
+  max-width: 100%;
+  }
 
 }
