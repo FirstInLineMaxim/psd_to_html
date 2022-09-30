@@ -12,6 +12,12 @@ header {
   height: 30rem;
 }
 
+body {
+font-family: "Bodoni Moda", serif;
+font-family: "Bodoni Moda", serif;
+}
+
+
 #hero-section {
   display: flex;
   flex-direction: column;
@@ -32,8 +38,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 20%;
-  background-color: transparent;
+   background-color: transparent;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -105,7 +110,7 @@ header p {
   display: flex;
   width: 60%;
   margin: 3rem auto;
-  gap: 10%;
+  gap: 5%;
   text-align: left;
   justify-content: center;
 }
@@ -115,6 +120,7 @@ form {
   flex-direction: column;
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 460px;
 }
 
 h3 {
@@ -126,7 +132,7 @@ h3 {
 }
 
 form input {
-  width: 460px;
+  max-width: 460px;
   height: 45px;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -141,8 +147,8 @@ form input {
 
 .button {
   color: #00e0d0;
-  width: 120px;
-  height: 40px;
+  max-width: 120px;
+  max-height: 40px;
   border-radius: 2px;
   background-color: transparent;
   border: 1px solid #00e0d0;
@@ -153,17 +159,23 @@ form input {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 50%;
+}
+
+.Form {
+  width: 50%;
 }
 
 .ClientGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
-  column-gap: 4rem;
+  column-gap: 2rem;
 }
 
 .ClientGrid img {
-  width: 150px;
+  width: 100%;
+  max-width: 150px;
 }
 
 /* WatchSection */
@@ -176,6 +188,7 @@ form input {
   background-image: url(/Images/bgk-middle.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 70vh;
   min-width: 460px;
 }
@@ -202,7 +215,7 @@ form input {
 }
 
 .tajamBlock .tajamHeader {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
@@ -291,6 +304,8 @@ p.adress {
 
 }
 
+
+
 .logo {
   display: flex;
   justify-content: center;
@@ -321,8 +336,10 @@ p.adress {
 
 
 h3.stayInTouchH3 {
+
   width: 100%;
-  ;
+
+    
   height: 65px;
   font-size: 20px;
   color: #ffffff;
@@ -353,23 +370,37 @@ h3.stayInTouchH3 {
   min-width: 100%;
 }
 
+
+/*story */
+
 #logo {
-  margin: 2% 10% 0 0;
+  display:flex;
+  flex-shrink:3;
+  margin: 0% 5% 0 0;
   width: 230px;
   height: 230px;
 }
 
 #Story_Text {
-  display: inline-block;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
   height: 80%;
-  font-family: font-size 80;
-  font-weight: 1200;
+  font-size: 80;
+  font-weight: 50;
   margin: 0px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #story_text h2 {
   font-weight: bold;
+}
+
+#our {
+  font-size:1.5em;
+  margin: 0 0 20px 0 ;
+
+
 }
 
 .button {
@@ -388,40 +419,86 @@ h3.stayInTouchH3 {
 }
 
 
-#team-section {
 
+  #team-section {
+    
   background-image: url(Images/bgk-header.png);
   background-size: cover;
+  background-position: center;
   width: 100%;
+    
+       }
 
-}
-
-#teamcontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  #teamcontainer {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around; 
   align-items: center;
-  color: white;
+  color:white;
   width: 100%;
+    
+  }
 
-}
+  
 
-#up {
+  #up {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex-shrink:3;
+  justify-content: center;
+  margin:5% 0 2% 0;
 
 }
+
+
 
 .Meet {
-  height: 100px;
+  display:flex;
+  justify-content:center;
+  min-height: 50px;
+  font-weight:100;
+  min-width:5%;
+
+  
+}
+
+.Meet.title { 
+font-size:1.3rem;
+font-weight:900;
 
 }
+
+.down {
+display:flex;
+justify-content:space-around;
+margin: 3%; ;
+min-height:20px;
+
+}
+
+.button1 {
+  
+  border: 1px solid rgb(24, 185, 177);
+  color: rgb(24, 185, 177);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px 0px 60px 0;
+  cursor: pointer;
+
+}
+
+
+
 
 
 #Pictures {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
   width: 60%;
 
@@ -493,8 +570,7 @@ q:after {
 
 .footer {
   background-image: url(Images/bgk-footer.png);
-  background-size: 100%;
-
+  background-size: cover;
 }
 
 
@@ -546,8 +622,7 @@ p.adress {
 
 
 
-.ourStudioHeader,
-.ourStudioFooter {
+.ourStudioHeader {
   display: flex;
   height: 70px;
 }
@@ -596,7 +671,7 @@ p.adress {
   color: #ffffff;
   font-weight: 400;
   font-family: "Roboto";
-  text-align: right;
+  text-align: left;
 }
 
 #expertise-section {
@@ -677,4 +752,66 @@ p.adress {
     padding-left: 5%;
     padding-right: 5%;
   }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 750px) {
+
+  .ContainerBlock p {
+    padding-top: 10px;
+    height: 90px;
+  }
+
+  .footer {
+    background-position: bottom;
+  }
+
+  .ContainerBlock h4{
+    font-size: 7px;
+    height: auto;
+  }
+
+  .ContainerBlock {
+    padding: 20px;
+    height: 250px;
+  }
+
+  #expertise-section {
+    width: 100%;
+    height: 750px;
+  }
+  .tajamBlock,
+  .stayInTouch {
+padding: 0px;
+margin: 15px;
+  }
+
+  .ourStuidoBlock {
+    margin: 15px;
+  }
+
+  .stayInTouch {
+    width: inherit;
+  }
+  
+  .stayInTouch input {
+    width: auto;
+  }
+
+  .container {
+    font-size: 7px;
+    padding: 25px 0px;
+    margin-left: 75px;
+  }
+  .help {
+    display: inline-block;
+  }
+
+#Story_Text {
+font-size:0.7em;
+
+}
+
+
+
+
 }
