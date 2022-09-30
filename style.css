@@ -826,6 +826,9 @@ margin: 15px;
     width: 95%;
   }
 
+  .stayInTouchInput input{
+    display: none;
+  }
   .Client {
     display: none;
   }
@@ -846,5 +849,6 @@ margin: 15px;
 font-size:0.7em;
 
 }
+
 
 
