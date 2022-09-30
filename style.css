@@ -826,6 +826,10 @@ margin: 15px;
     width: 95%;
   }
 
+  .footer .container {
+    margin: 0%;
+    width: 100%;
+  }
   .stayInTouchInput input{
     display: none;
   }
