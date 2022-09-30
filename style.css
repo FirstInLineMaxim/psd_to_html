@@ -32,8 +32,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 20%;
-  background-color: transparent;
+   background-color: transparent;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -321,8 +320,10 @@ p.adress {
 
 
 h3.stayInTouchH3 {
+
   width: 100%;
-  ;
+
+    
   height: 65px;
   font-size: 20px;
   color: #ffffff;
@@ -388,35 +389,78 @@ h3.stayInTouchH3 {
 }
 
 
-#team-section {
 
+  #team-section {
+    
   background-image: url(Images/bgk-header.png);
   background-size: cover;
   width: 100%;
+    
+       }
 
-}
+  #teamcontainer {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around; 
+  align-items: center;
+  color:white;
+  width: 100%;
+    
+  }
 
-#teamcontainer {
+  
+
+  #up {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: white;
-  width: 100%;
+  margin:5%;
 
 }
 
-#up {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
-}
 
 .Meet {
-  height: 100px;
+  display:flex;
+  justify-content:center;
+  min-height: 50px;
+  font-weight:100;
+  min-width:5%;
+
+  
+}
+
+.Meet.title { 
+font-size:1.3rem;
+font-weight:900;
 
 }
+
+.down {
+display:flex;
+justify-content:space-around;
+margin: 3%; ;
+min-height:20px;
+
+}
+
+.button1 {
+  
+  border: 1px solid rgb(24, 185, 177);
+  color: rgb(24, 185, 177);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px 0px 60px 0;
+  cursor: pointer;
+
+}
+
+
+
 
 
 #Pictures {
