@@ -140,8 +140,8 @@ form input {
 
 .button {
   color: #00e0d0;
-  width: 120px;
-  height: 40px;
+  max-width: 120px;
+  max-height: 40px;
   border-radius: 2px;
   background-color: transparent;
   border: 1px solid #00e0d0;
