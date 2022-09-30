@@ -774,3 +774,21 @@ margin: 15px;
     display: inline-block;
   }
 }
+
+@media only screen and (max-width: 774px) and (min-width: 700px) {
+  #Pictures{
+    width: 90%;
+  }
+  
+  #contact_client-section {
+
+    width: 95%;
+  }
+
+  .Client{
+    flex-wrap: wrap;
+    gap:0;
+  }
+
+
+}
