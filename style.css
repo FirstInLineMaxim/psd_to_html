@@ -770,3 +770,8 @@ margin: 15px;
     display: inline-block;
   }
 }
+
+@media screen only and (max-width:1500px) and (min-width:992px){
+
+  
+}
