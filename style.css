@@ -389,7 +389,7 @@ h3.stayInTouchH3 {
   font-size: 80;
   font-weight: 50;
   margin: 0px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #story_text h2 {
@@ -799,4 +799,13 @@ margin: 15px;
   .help {
     display: inline-block;
   }
+
+#Story_Text {
+font-size:0.7em;
+
+}
+
+
+
+
 }
