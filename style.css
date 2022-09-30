@@ -44,6 +44,8 @@ font-family: "Bodoni Moda", serif;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .nav a {
