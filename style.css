@@ -125,7 +125,7 @@ h3 {
 }
 
 form input {
-  width: 460px;
+  max-width: 460px;
   height: 45px;
   background-color: #ffffff;
   border: 1px solid #000000;
@@ -152,6 +152,11 @@ form input {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 50%;
+}
+
+.Form {
+  width: 50%;
 }
 
 .ClientGrid {
