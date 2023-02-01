@@ -1,6 +1,3 @@
-/* roxi here making a test  */
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600&display=swap");
-
 /* Nav Section */
 
 header {
@@ -11,7 +8,9 @@ header {
   width: 100%;
   height: 30rem;
 }
-.button-header{ color: #00e0d0;
+
+.button-header {
+  color: #00e0d0;
   max-width: 120px;
   max-height: 40px;
   border-radius: 2px;
@@ -24,8 +23,8 @@ header {
 }
 
 body {
-font-family: "Bodoni Moda", serif;
-font-family: "Bodoni Moda", serif;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Bodoni Moda", serif;
 }
 
 
@@ -49,7 +48,7 @@ font-family: "Bodoni Moda", serif;
   position: absolute;
   top: 0;
   left: 0;
-   background-color: transparent;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -69,7 +68,7 @@ font-family: "Bodoni Moda", serif;
   color: cyan;
   padding: 10pt;
   margin: 0;
-  font-size: 1,5rem;
+  font-size: 1, 5rem;
   position: relative;
 }
 
@@ -85,7 +84,7 @@ font-family: "Bodoni Moda", serif;
 
 .menu-elem {
   padding: 5pt;
-  font-size: 0,5rem;
+  font-size: 0, 5rem;
 }
 
 .logo {
@@ -103,7 +102,7 @@ font-family: "Bodoni Moda", serif;
 .hero-text {
 
   font-size: 24;
- 
+
   color: white;
   padding: 5%;
   text-align: center;
@@ -351,7 +350,7 @@ h3.stayInTouchH3 {
 
   width: 100%;
 
-    
+
   height: 65px;
   font-size: 20px;
   color: #ffffff;
@@ -386,8 +385,8 @@ h3.stayInTouchH3 {
 /*story */
 
 #logo {
-  display:flex;
-  flex-shrink:3;
+  display: flex;
+  flex-shrink: 3;
   margin: 0% 5% 0 0;
   width: 230px;
   height: 230px;
@@ -395,8 +394,8 @@ h3.stayInTouchH3 {
 
 #Story_Text {
   display: flex;
-  flex-direction:column;
-  justify-content:space-around;
+  flex-direction: column;
+  justify-content: space-around;
   height: 80%;
   font-size: 80;
   font-weight: 50;
@@ -409,8 +408,8 @@ h3.stayInTouchH3 {
 }
 
 #our {
-  font-size:1.5em;
-  margin: 0 0 20px 0 ;
+  font-size: 1.5em;
+  margin: 0 0 20px 0;
 
 
 }
@@ -432,64 +431,65 @@ h3.stayInTouchH3 {
 
 
 
-  #team-section {
-    
+#team-section {
+
   background-image: url(Images/bgk-header.png);
   background-size: cover;
   background-position: center;
   width: 100%;
-    
-       }
 
-  #teamcontainer {
-  display:flex;
-  flex-direction:column;
-  justify-content: space-around; 
-  align-items: center;
-  color:white;
-  width: 100%;
-    
-  }
+}
 
-  
-
-  #up {
+#teamcontainer {
   display: flex;
   flex-direction: column;
-  flex-shrink:3;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 100%;
+
+}
+
+
+
+#up {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 3;
   justify-content: center;
-  margin:5% 0 2% 0;
+  margin: 5% 0 2% 0;
 
 }
 
 
 
 .Meet {
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
   min-height: 50px;
-  font-weight:100;
-  min-width:5%;
+  font-weight: 100;
+  min-width: 5%;
 
-  
+
 }
 
-.Meet.title { 
-font-size:1.3rem;
-font-weight:900;
+.Meet.title {
+  font-size: 1.3rem;
+  font-weight: 900;
 
 }
 
 .down {
-display:flex;
-justify-content:space-around;
-margin: 3%; ;
-min-height:20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+  ;
+  min-height: 20px;
 
 }
 
 .button1 {
-  
+
   border: 1px solid rgb(24, 185, 177);
   color: rgb(24, 185, 177);
   padding: 15px 32px;
@@ -759,7 +759,7 @@ p.adress {
   letter-spacing: 0px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
   .hero-text {
     padding-left: 5%;
     padding-right: 5%;
@@ -777,7 +777,7 @@ p.adress {
     background-position: bottom;
   }
 
-  .ContainerBlock h4{
+  .ContainerBlock h4 {
     font-size: 7px;
     height: auto;
   }
@@ -791,10 +791,11 @@ p.adress {
     width: 100%;
     height: 750px;
   }
+
   .tajamBlock,
   .stayInTouch {
-padding: 0px;
-margin: 15px;
+    padding: 0px;
+    margin: 15px;
   }
 
   .ourStuidoBlock {
@@ -804,7 +805,7 @@ margin: 15px;
   .stayInTouch {
     width: inherit;
   }
-  
+
   .stayInTouch input {
     width: auto;
   }
@@ -814,13 +815,14 @@ margin: 15px;
     padding: 25px 0px;
     margin-left: 75px;
   }
+
   .help {
     display: inline-block;
   }
 }
 
 
-@media only screen and (max-width: 700px ) and (min-width: 300px) {
+@media only screen and (max-width: 700px) and (min-width: 300px) {
 
   #contact_client-section {
     width: 95%;
@@ -830,9 +832,11 @@ margin: 15px;
     margin: 0%;
     width: 100%;
   }
-  .stayInTouchInput input{
+
+  .stayInTouchInput input {
     display: none;
   }
+
   .Client {
     display: none;
   }
@@ -842,17 +846,13 @@ margin: 15px;
   }
 
   form,
-  form input
-{
-  max-width: 100%;
+  form input {
+    max-width: 100%;
   }
 
 }
 
 #Story_Text {
-font-size:0.7em;
+  font-size: 0.7em;
 
 }
-
-
-
